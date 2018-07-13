@@ -16,8 +16,8 @@
   "commands": {
     "toggle-feature": {
       "suggested_key": {
-        "default": "Ctrl+Shift+K",
-        "mac": "MacCtrl+Shift+K"
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
        },
       "description": "Send a 'toggle-feature' event to the extension"
     }
