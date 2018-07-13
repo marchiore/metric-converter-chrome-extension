@@ -1,5 +1,4 @@
 function save_settings() {
-  console.log('saving')
   var fromMetric = document.getElementById('fromMetric').value
   var toMetric = document.getElementById('toMetric').value
   chrome.storage.sync.set({
@@ -15,7 +14,6 @@ function save_settings() {
 }
   
 function restore_settings() {
-  console.log('restoring')
   chrome.storage.sync.get({
     fromMetric: "mm",
     toMetric: "inch"
@@ -28,3 +26,6 @@ function restore_settings() {
 document.addEventListener('DOMContentLoaded', restore_settings);
 document.getElementById('fromMetric').addEventListener('change', save_settings);
 document.getElementById('toMetric').addEventListener('change', save_settings);
+document.getElementById("saveButton").addEventListener('click', function() {
+  window.close();
+});
