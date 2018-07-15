@@ -1,4 +1,5 @@
 # Metrix - Metric Converter Chrome Extension
+![Metrix Logo](https://github.com/marchiore/metric-converter-chrome-extension/blob/master/src/metrix-logo.png)
 Easy method to convert units and direct copy it to the Clipboard
 
 # How it Works
