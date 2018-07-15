@@ -1,9 +1,12 @@
 # Metrix - Metric Converter Chrome Extension
-![Metrix Logo](https://github.com/marchiore/metric-converter-chrome-extension/blob/master/src/metrix-logo.png)
-Easy method to convert units and direct copy it to the Clipboard
+<p align="center">
+<img src="https://github.com/marchiore/metric-converter-chrome-extension/blob/master/src/metrix-logo.png" width="50%">
+</p>
 
 # How it Works
-Simple select text on your webpage and press CTRL + SHIFT + E, than automatically send the converted value to clipboard
+Easy provide a easy method to convert units and direct copy it to your Clipboard.
+
+Simple select text on your webpage and press **CTRL + SHIFT + E**, than automatically send the converted value to clipboard!
 
 # Contribute
  - Let user choose the Keyboard Shortcut
