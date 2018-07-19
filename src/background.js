@@ -34,7 +34,7 @@ function getOperation(from, to){
 
   // mm conversions
   function mmToCentimeters(value) {
-    return value * 10
+    return value / 10
   }
 
   function mmToInches(value) {
